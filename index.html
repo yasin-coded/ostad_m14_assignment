@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
     <title>Trafalgar Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,19 +38,35 @@
             </div>
         </nav>
 
-        <!--Hero Section-->
-        <h1 class="mx-auto mt-4 text-2xl font-extrabold text-black md:text-3xl lg:text-4xl lg:max-w-2xl">Virtual Healthcare <br> for you</h1>
-
-
-
-
-
-
-
-
-
-
     </header>
+
+    <!--Hero Section-->
+    <main>
+        <section class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-4 py-12 lg:flex-row lg:py-16">
+            <!-- Left Column: Content -->
+            <div class="flex-1 space-y-6">
+                <h1 class="text-4xl font-bold leading-[1.25] text-[#233348] sm:text-5xl">
+                    Virtual healthcare <br>
+                    for you
+                </h1>
+                <p class="text-lg text-[#7D7987]">
+                    Trafalgar provides progressive, and affordable <br class="hidden sm:inline">
+                    healthcare, accessible on mobile and online <br class="hidden sm:inline">
+                    for everyone
+                </p>
+                <div class="pt-2">
+                    <button class="cursor-pointer rounded-full bg-[#458FF6] px-10 py-3.5 text-base font-semibold text-white transition-all hover:bg-blue-600 hover:shadow-md">
+                        Consult today
+                    </button>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="flex flex-1 items-center justify-center lg:justify-end">
+                <img src="./images/Hero_Section.png" alt="Virtual healthcare illustration" class="w-full max-w-lg lg:max-w-xl">
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
