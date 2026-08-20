@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@source "../index.html";
 
 @theme {
   --color-navbar-text: #1F1534;
@@ -6,4 +7,7 @@
   --color-body-text: #7D7987;
   --color-brand-color: #458FF6;
   --color-brand-color-dark: #4175c7;
+  --color-gradient-color-1: #67C3F3;
+  --color-gradient-color-2: #5A98F2;
+  --color-slider-dots: #5B9BF3;
 }
