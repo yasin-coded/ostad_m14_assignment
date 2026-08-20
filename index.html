@@ -17,7 +17,7 @@
     <!--Menu Bar-->
     <header class="sticky top-0 z-50 bg-white">
         <nav class="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-            <a href="#" class="flex items-center gap-3 no-underline group">
+            <a  class="flex items-center gap-3 no-underline group">
 
                 <div
                     class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-color text-xl font-bold text-white select-none">
@@ -298,6 +298,11 @@
 
         <!--More Articles section-->
         <section class="mx-auto w-full max-w-[1120px] py-16 px-4">
+            <h2 class="text-black text-4xl font-bold text-center mb-8">Check out our latest article</h2>
+            <div class="mb-8 flex items-center justify-center">
+                <div class="h-0.5 w-14 bg-black rounded-full"></div>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <!-- Card 1 -->
@@ -394,16 +399,67 @@
                 </button>
             </div>
         </section>
-
-        <!--Footer Section-->
-        <footer id="aboutUs class"
-
-
-
-
-
-
     </main>
+
+    <!--Footer Section-->
+    <footer id="aboutUs" class="w-full bg-gradient-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-6 lg:px-8 mt-24 text-white scroll-mt-24">
+        <div class="mx-auto max-w-[1120px] flex flex-col md:flex-row justify-between items-start gap-12">
+
+            <!-- Brand Column -->
+            <div class="max-w-sm space-y-5">
+                <div class="flex items-center gap-3">
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl font-bold text-brand-color select-none">
+                        T
+                    </div>
+                    <span class="text-2xl font-bold text-white">Trafalgar</span>
+                </div>
+                <p class="text-base font-light leading-relaxed text-white/80">
+                    Trafalgar provides progressive, and affordable <br> healthcare, accessible on mobile and online <br> for everyone
+                </p>
+                <p class="text-sm font-light text-white/70 pt-4">
+                    ©Trafalgar PTY LTD 2026. All rights reserved<br>
+                    Made by Yasin Bin Ahsan
+                </p>
+            </div>
+
+            <!-- Links Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-10 lg:gap-16">
+                <!-- Company -->
+                <div>
+                    <h4 class="font-bold text-lg mb-5 text-white">Company</h4>
+                    <ul class="space-y-3 text-sm font-light text-white/80">
+                        <li><a href="#aboutUs" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
+                        <li><a href="#findDoctor" class="hover:text-white transition-colors">Find a doctor</a></li>
+                        <li><a href="#apps" class="hover:text-white transition-colors">Apps</a></li>
+                    </ul>
+                </div>
+
+                <!-- Region -->
+                <div>
+                    <h4 class="font-bold text-lg mb-5 text-white">Region</h4>
+                    <ul class="space-y-3 text-sm font-light text-white/80">
+                        <li><a  class="hover:text-white transition-colors cursor-pointer">Indonesia</a></li>
+                        <li><a  class="hover:text-white transition-colors cursor-pointer">Singapore</a></li>
+                        <li><a  class="hover:text-white transition-colors cursor-pointer">Hongkong</a></li>
+                        <li><a  class="hover:text-white transition-colors cursor-pointer">Canada</a></li>
+                    </ul>
+                </div>
+
+                <!-- Help -->
+                <div>
+                    <h4 class="font-bold text-lg mb-5 text-white">Help</h4>
+                    <ul class="space-y-3 text-sm font-light text-white/80">
+                        <li><a class="hover:text-white transition-colors cursor-pointer">Help center</a></li>
+                        <li><a class="hover:text-white transition-colors cursor-pointer">Contact support</a></li>
+                        <li><a class="hover:text-white transition-colors cursor-pointer">Instructions</a></li>
+                        <li><a class="hover:text-white transition-colors cursor-pointer">How it works</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
-</html>
+</html> 
