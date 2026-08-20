@@ -20,7 +20,7 @@
             <a href="#" class="flex items-center gap-3 no-underline group">
 
                 <div
-                    class="flex h-10 w-10 items-center justify-center rounded-full bg-[#458FF6] text-xl font-bold text-white select-none">
+                    class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-color text-xl font-bold text-white select-none">
                     T
                 </div>
                 <span class="text-2xl font-bold text-[#233348]">Trafalgar</span>
@@ -57,7 +57,7 @@
                 </p>
                 <div class="pt-2">
                     <button
-                        class="cursor-pointer rounded-full bg-[#458FF6] px-10 py-3.5 text-base font-semibold text-white transition-all hover:bg-blue-600 hover:shadow-md">
+                        class="cursor-pointer rounded-full bg-brand-color px-10 py-3.5 text-base font-semibold text-white hover:bg-brand-color-dark hover:shadow-xl hover:scale-105 transition-all">
                         Consult today
                     </button>
                 </div>
@@ -65,7 +65,7 @@
 
             <!-- Image -->
             <div class="flex flex-1 items-center justify-center lg:justify-end">
-                <img src="./images/Hero_Section.png" alt="Virtual healthcare illustration"
+                <img src="./images/Hero_Section.png" alt="Virtual healthcare"
                     class="w-full max-w-lg lg:max-w-xl">
             </div>
         </section>
@@ -82,54 +82,82 @@
                 for your health.
             </p>
 
-            <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
+            <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
 
-                <article class="rounded-2xl border border-transparent hover:border-blue-500 hover:shadow-lg p-6 transition-all"><!--1-->
-                    <h3 class="text-2xl font-extrabold mb-4">Search Doctor</h3>
-                    <p class="text-body-text text-lg justify-center lg:text-left">
-                        Choose your doctor from thousands <br> of specialist, general, and trusted <br> hospitals
+                <article class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300"> <!--1-->
+                    <div class="mb-6">
+                        <img src="./images/Search.png" alt="Search doctor"
+                            class="h-20 w-auto object-contain">
+                    </div>
+                    <h3 class="text-2xl font-bold text-black mb-3">Search doctor</h3>
+                    <p class="text-body-text font-light text-base leading-relaxed">
+                        Choose your doctor from thousands of specialist, general, and trusted hospitals
                     </p>
                 </article>
 
-
-                <article class="rounded-2xl border border-transparent hover:border-blue-500 hover:shadow-lg p-6 transition-all"> <!--2-->
-                    <h3 class="text-2xl font-extrabold mb-4">Online Pharmacy</h3>
-                    <p class="text-body-text text-lg justify-center lg:text-left">
-                        Buy your medicines with our <br> mobile application with a simple <br> delivery system
+                <article class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300"> <!--2-->
+                    <div class="mb-6">
+                        <img src="./images/Medicine.png" alt="Online pharmacy"
+                            class="h-20 w-auto object-contain">
+                    </div>                   
+                    <h3 class="text-2xl font-bold text-black mb-3">Online pharmacy</h3>
+                    <p class="text-body-text font-light text-base leading-relaxed">
+                        Buy your medicines with our mobile application with a simple delivery system
                     </p>
                 </article>
 
-                <article class="rounded-2xl border border-transparent hover:border-blue-500 hover:shadow-lg p-6 transition-all"> <!--3-->
-                    <h3 class="text-2xl font-extrabold mb-4">Consultation</h3>
-                    <p class="text-body-text text-lg justify-center lg:text-left">
-                        Free consultation with our trusted <br> doctors and get the best <br> recomendations
-                    </p>
-
-                </article>
-
-                <article class="rounded-2xl border border-transparent hover:border-blue-500 hover:shadow-lg p-6 transition-all"> <!--3-->
-                    <h3 class="text-2xl font-extrabold mb-4">Details Info</h3>
-                    <p class="text-body-text text-lg justify-center lg:text-left">
-                        Choose your doctor from thousands <br> of specialist, general, and trusted <br> hospitals
+                <article class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300"> <!--3-->
+                    <div class="mb-6">
+                        <img src="./images/Info.png" alt="Consultation"
+                            class="h-20 w-auto object-contain">
+                    </div>         
+                    <h3 class="text-2xl font-bold text-black mb-3">Consultation</h3>
+                    <p class="text-body-text font-light text-base leading-relaxed">
+                        Free consultation with our trusted doctors and get the best recomendations
                     </p>
                 </article>
 
-                <article class="rounded-2xl border border-transparent hover:border-blue-500 hover:shadow-lg p-6 transition-all"> <!--5-->
-                    <h3 class="text-2xl font-extrabold mb-4">Emergency Care</h3>
-                    <p class="text-body-text text-lg justify-center lg:text-left">
-                        You can get 24/7 urgent care for <br> yourself or your children and your <br> lovely family
-                    </p>
-
-                </article>
-
-                <article class="rounded-2xl border border-transparent hover:border-blue-500 hover:shadow-lg p-6 transition-all"> <!--6-->
-                    <h3 class="text-2xl font-extrabold mb-4">Tracking</h3>
-                    <p class="text-body-text text-lg justify-center lg:text-left">
-                        Track and save your medical history <br> and health data
+                <article class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300"> <!--4-->
+                    <div class="mb-6">
+                        <img src="./images/Report.png" alt="Details info"
+                            class="h-20 w-auto object-contain">
+                    </div>
+                    <h3 class="text-2xl font-bold text-black mb-3">Details info</h3>
+                    <p class="text-body-text font-light text-base leading-relaxed">
+                        Free consultation with our trusted doctors and get the best recomendations
                     </p>
                 </article>
 
+                <article class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300"> <!--5-->
+                    <div class="mb-6">
+                        <img src="./images/First_aid.png" alt="Emergency care"
+                            class="h-20 w-auto object-contain">
+                    </div>  
+                    <h3 class="text-2xl font-bold text-black mb-3">Emergency care</h3>
+                    <p class="text-body-text font-light text-base leading-relaxed">
+                        You can get 24/7 urgent care for yourself or your children and your lovely family
+                    </p>
+                </article>
+
+                <article class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300"> <!--6-->
+                    <div class="mb-6">
+                        <img src="./images/Note.png" alt="Tracking"
+                            class="h-20 w-auto object-contain">
+                    </div>  
+                    <h3 class="text-2xl font-bold text-black mb-3">Tracking</h3>
+                    <p class="text-body-text font-light text-base leading-relaxed">
+                        Track and save your medical history and health data
+                    </p>
+                </article>
             </div>
+
+            <!-- Learn More Button -->
+            <div class="mt-12 flex justify-center">
+                <button class="cursor-pointer rounded-full bg-white border-2 border-brand-color w-50 h-15 flex items-center justify-center text-base font-semibold text-brand-color hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105 transition-all">
+                    Learn More
+                </button>
+            </div>
+
 
 
 
