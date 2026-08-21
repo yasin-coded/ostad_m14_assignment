@@ -3,7 +3,6 @@
 
 A clean, modern, and fully responsive landing page built with HTML5 and Tailwind CSS based on the Trafalgar Figma design.
 
-![Live Demo Preview](https://trafalgar-landing-page-five.vercel.app)
 
 ---
 
