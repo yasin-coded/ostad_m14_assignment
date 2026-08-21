@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="scroll-smooth">
+<html class="scroll-smooth overflow-x-hidden">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,11 @@
         rel="stylesheet">
 </head>
 
-<body class="font-[Mulish] bg-white text-black">
+<body class="font-[Mulish] bg-white text-black overflow-x-hidden relative">
+
+    <!-- Decorative Dots (Hero Top-Left) -->
+    <img src="./images/dots.png" alt="Decorative dots"
+        class="absolute -left-[30px] top-40 w-[131.4px] h-[115px] pointer-events-none select-none z-0 object-contain hidden sm:block sm:opacity-15 lg:opacity-100">
 
     <!--Menu Bar-->
     <header class="sticky top-0 z-50 bg-white">
@@ -76,7 +80,14 @@
         </section>
 
         <!--Services Section- DONE -->
-        <section id="findDoctor" class="mx-auto max-w-6xl px-4 pt-16 scroll-mt-12">
+        <section id="findDoctor" class="relative mx-auto max-w-6xl px-4 pt-16 scroll-mt-12">
+            <!-- Background Decorative Elements -->
+            <img src="./images/Frame.png" alt="Decorative background frame"
+                class="absolute -left-20 lg:-left-44 top-28 lg:top-36 w-[650px] lg:w-[850px] max-w-none pointer-events-none select-none -z-10 object-contain">
+
+            <img src="./images/dot_2.png" alt="Decorative dots"
+                class="absolute right-0 lg:-right-8 top-[54%] -translate-y-1/2 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
+
             <h2 class="text-black text-4xl font-bold text-center">Our Services</h2>
             <div class="mx-auto h-0.5 w-14 bg-black mt-6 rounded-full"></div>
 
@@ -174,32 +185,38 @@
         </section>
 
         <!--Healthcare Providers Section-->
-        <section
-            class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-16 lg:flex-row lg:gap-20 lg:py-24">
-            <!-- Left Column: Image -->
-            <div class="flex flex-1 items-center justify-center lg:justify-start">
-                <img src="./images/Picture_2.png" alt="Healthcare Provider" class="w-full max-w-lg lg:max-w-xl">
-            </div>
-            <div class="flex-1 space-y-6 md:pl-8 lg:pl-16 xl:pl-20">
-                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
-                    Leading healthcare <br>
-                    providers
-                </h2>
-                <div class="h-0.5 w-14 bg-black rounded-full"></div>
-                <p class="text-body-text font-light text-base sm:text-lg leading-relaxed max-w-md">
-                    Trafalgar provides progressive, and affordable <br class="hidden sm:inline">
-                    healthcare, accessible on mobile and online for <br class="hidden sm:inline">
-                    everyone. To us, it's not just work. We take pride <br class="hidden sm:inline">
-                    in the solutions we deliver
-                </p>
-                <div class="pt-4">
-                    <button
-                        class="cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
-                        Learn more
-                    </button>
+        <div class="relative w-full">
+            <!-- Decorative Dots (Right Edge of Screen) -->
+            <img src="./images/dots.png" alt="Decorative dots"
+                class="absolute -right-[25px] bottom-0 lg:bottom-6 w-[131.4px] h-[115px] pointer-events-none select-none z-0 object-contain">
+
+            <section
+                class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-16 lg:flex-row lg:gap-20 lg:py-24">
+                <!-- Left Column: Image -->
+                <div class="flex flex-1 items-center justify-center lg:justify-start">
+                    <img src="./images/Picture_2.png" alt="Healthcare Provider" class="w-full max-w-lg lg:max-w-xl">
                 </div>
-            </div>
-        </section>
+                <div class="flex-1 space-y-6 md:pl-8 lg:pl-16 xl:pl-20">
+                    <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
+                        Leading healthcare <br>
+                        providers
+                    </h2>
+                    <div class="h-0.5 w-14 bg-black rounded-full"></div>
+                    <p class="text-body-text font-light text-base sm:text-lg leading-relaxed max-w-md">
+                        Trafalgar provides progressive, and affordable <br class="hidden sm:inline">
+                        healthcare, accessible on mobile and online for <br class="hidden sm:inline">
+                        everyone. To us, it's not just work. We take pride <br class="hidden sm:inline">
+                        in the solutions we deliver
+                    </p>
+                    <div class="pt-4">
+                        <button
+                            class="cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
 
         <!--App Section-DONE-->
         <section id="apps"
@@ -237,33 +254,49 @@
 
         <!--Testimonial Section-->
 
-        <section id="testimonials" class="mx-auto w-full max-w-280 scroll-mt-24">
+        <section id="testimonials" class="mx-auto w-full max-w-280 scroll-mt-24 px-4 sm:px-0">
 
-            <!-- Gradient Box -->
-            <div
-                class="w-full rounded-3xl bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-8 lg:px-20 flex flex-col items-center">
+            <!-- Box Container with Background Dots -->
+            <div class="relative w-full">
 
-                <h2 class="text-center text-3xl font-bold text-white">What our customer are saying</h2>
+                <!-- Decorative Dots Behind Box-->
+                <img src="./images/Dot_3_b_test.png" alt="Decorative dots"
+                    class="absolute -left-12 -bottom-6 lg:-left-12 lg:bottom-10 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
 
-                <div class="mt-6 h-0.5 w-16 bg-white rounded-full"></div>
+                <!-- Gradient Box -->
+                <div
+                    class="w-full rounded-3xl bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-8 lg:px-20 flex flex-col items-center">
 
-                <div class="mt-16 flex flex-col lg:flex-row items-center justify-between w-full gap-12 lg:gap-8">
-                    <div class="flex items-center gap-6 lg:w-1/2 justify-start lg:justify-center">
-                        <img src="./images/yasin.jpg" alt="Yasin"
-                            class="w-24 h-24 lg:w-32 lg:h-32 rounded-full border-4 border-white object-cover">
-                        <div class="text-white text-left">
-                            <h3 class="text-xl lg:text-2xl font-bold">Yasin Bin Ahsan</h3>
-                            <p class="text-sm lg:text-base font-light mt-1">Founder Circle</p>
+                    <!-- Decorative Dots on Top of Box -->
+                    <img src="./images/dot_3.png" alt="Decorative dots"
+                        class="absolute right-5 top-5 lg:right-0 lg:-top-4 w-[113px] h-[96px] pointer-events-none select-none z-0 object-contain hidden sm:block">
+
+                    <h2 class="text-center text-3xl font-bold text-white relative z-10">What our customer are saying
+                    </h2>
+
+                    <div class="mt-6 h-0.5 w-16 bg-white rounded-full relative z-10"></div>
+
+                    <div
+                        class="mt-16 flex flex-col lg:flex-row items-center justify-between w-full gap-12 lg:gap-8 relative z-10">
+                        <div class="flex items-center gap-6 lg:w-1/2 justify-start lg:justify-center">
+                            <img src="./images/yasin.jpg" alt="Yasin"
+                                class="w-24 h-24 lg:w-32 lg:h-32 rounded-full border-4 border-white object-cover">
+                            <div class="text-white text-left">
+                                <h3 class="text-xl lg:text-2xl font-bold">Yasin Bin Ahsan</h3>
+                                <p class="text-sm lg:text-base font-light mt-1">Founder Circle</p>
+                            </div>
+                        </div>
+
+                        <div class="lg:w-1/2 text-white text-center lg:text-left lg:pr-8">
+                            <p class="text-base lg:text-lg font-light leading-loose">
+                                “Our dedicated patient engagement app and <br> web portal allow you to access
+                                information
+                                <br>
+                                instantaneously (no tedious form, long calls, or administrative hassle) and securely”
+                            </p>
                         </div>
                     </div>
 
-                    <div class="lg:w-1/2 text-white text-center lg:text-left lg:pr-8">
-                        <p class="text-base lg:text-lg font-light leading-loose">
-                            “Our dedicated patient engagement app and <br> web portal allow you to access information
-                            <br>
-                            instantaneously (no tedious form, long calls, or administrative hassle) and securely”
-                        </p>
-                    </div>
                 </div>
 
             </div>
@@ -299,7 +332,14 @@
         </section>
 
         <!--More Articles section-->
-        <section class="mx-auto w-full max-w-280 py-16 px-4">
+        <section class="relative mx-auto w-full max-w-280 py-16 px-4">
+            <!-- Background Decoratives -->
+            <img src="./images/dot_2.png" alt="Decorative dots"
+                class="absolute -left-6 lg:-left-12 top-48 lg:top-32 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
+
+            <img src="./images/Frame_2.png" alt="Decorative background shape"
+                class="absolute -right-20 lg:-right-40 top-32 lg:top-24 w-[450px] lg:w-[600px] pointer-events-none select-none -z-10 object-contain">
+
             <h2 class="text-black text-4xl font-bold text-center mb-8">Check out our latest article</h2>
             <div class="mb-8 flex items-center justify-center">
                 <div class="h-0.5 w-14 bg-black rounded-full"></div>
@@ -405,8 +445,17 @@
 
     <!--Footer Section-->
     <footer id="aboutUs"
-        class="w-full bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-6 lg:px-8 mt-24 text-white scroll-mt-24">
-        <div class="mx-auto max-w-280 flex flex-col md:flex-row justify-between items-start gap-12">
+        class="relative overflow-hidden w-full bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-6 lg:px-8 mt-24 text-white scroll-mt-24">
+
+        <!-- Decorative Dots (Top-Right) -->
+        <img src="./images/dot_2.png" alt="Decorative dots"
+            class="absolute right-24 -top-14 lg:right-32 lg:-top-14 w-[132px] h-[115px] pointer-events-none select-none z-0 object-contain">
+
+        <!-- Decorative Dots (Bottom-Left) -->
+        <img src="./images/dot_3.png" alt="Decorative dots"
+            class="absolute -left-4 -bottom-4 lg:left-4 lg:-bottom-2 w-[131px] h-[115px] pointer-events-none select-none z-0 object-contain ">
+
+        <div class="relative z-10 mx-auto max-w-280 flex flex-col md:flex-row justify-between items-start gap-12">
 
             <!-- Brand Column -->
             <div class="max-w-sm space-y-5">
