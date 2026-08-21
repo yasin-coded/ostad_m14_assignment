@@ -1,4 +1,4 @@
-/src/output.css
+
 dist/
 *.log
 npm-debug.log*
