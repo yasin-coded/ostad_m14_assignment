@@ -16,8 +16,9 @@
 
     <!--Menu Bar-->
     <header class="sticky top-0 z-50 bg-white">
-        <nav class="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-            <a  class="flex items-center gap-3 no-underline group">
+        <nav
+            class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-y-3 px-4 py-3 lg:h-16 lg:justify-between lg:py-0">
+            <a class="flex items-center gap-3 no-underline group cursor-pointer">
 
                 <div
                     class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-color text-xl font-bold text-white select-none">
@@ -26,7 +27,8 @@
                 <span class="text-2xl font-bold text-[#233348]">Trafalgar</span>
             </a>
 
-            <div class="flex items-center gap-8 md:gap-10">
+            <!--Navlink-->
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-3 md:gap-10">
                 <a href="#home"
                     class="text-navbar-text/50 font-medium text-lg no-underline hover:text-navbar-text">Home</a>
                 <a href="#findDoctor"
@@ -47,7 +49,7 @@
     <!--Hero Section- DONE -->
     <main>
         <section id="home"
-            class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-4 py-12 lg:flex-row lg:py-16">
+            class="mx-auto flex max-w-6xl flex-col flex-w-6xl items-center justify-between gap-8 lg:gap-16 px-4 py-12 lg:flex-row lg:py-16">
             <!-- Left Column: Content -->
             <div class="flex-1 space-y-6">
                 <h1 class="text-4xl font-bold leading-tight text-black sm:text-5xl">
@@ -74,11 +76,11 @@
         </section>
 
         <!--Services Section- DONE -->
-        <section id="findDoctor" class="mx-auto max-w-6xl px-4 pt-16 scroll-mt-0">
+        <section id="findDoctor" class="mx-auto max-w-6xl px-4 pt-16 scroll-mt-12">
             <h2 class="text-black text-4xl font-bold text-center">Our Services</h2>
             <div class="mx-auto h-0.5 w-14 bg-black mt-6 rounded-full"></div>
 
-            <p class="text-body-text text-lg justify-center lg:text-center mt-5">
+            <p class="text-body-text text-lg justify-center lg:text-center text mt-5 text-center">
                 We provide to you the best choices for you. Adjust it to your health needs and make sure your undergo
                 treatment <br> with our highly qualified doctors you can consult with us which type of service is
                 suitable
@@ -178,7 +180,7 @@
             <div class="flex flex-1 items-center justify-center lg:justify-start">
                 <img src="./images/Picture_2.png" alt="Healthcare Provider" class="w-full max-w-lg lg:max-w-xl">
             </div>
-            <div class="flex-1 space-y-6">
+            <div class="flex-1 space-y-6 md:pl-8 lg:pl-16 xl:pl-20">
                 <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
                     Leading healthcare <br>
                     providers
@@ -255,7 +257,7 @@
                         </div>
                     </div>
 
-                    <div class="lg:w-1/2 text-white text-left lg:pr-8">
+                    <div class="lg:w-1/2 text-white text-center lg:text-left lg:pr-8">
                         <p class="text-base lg:text-lg font-light leading-loose">
                             “Our dedicated patient engagement app and <br> web portal allow you to access information
                             <br>
@@ -305,7 +307,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <!-- Card 1 -->
+
                 <article
                     class="bg-white rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(229,233,242,0.7)] flex flex-col justify-between">
                     <div>
@@ -402,21 +404,24 @@
     </main>
 
     <!--Footer Section-->
-    <footer id="aboutUs" class="w-full bg-gradient-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-6 lg:px-8 mt-24 text-white scroll-mt-24">
+    <footer id="aboutUs"
+        class="w-full bg-gradient-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-6 lg:px-8 mt-24 text-white scroll-mt-24">
         <div class="mx-auto max-w-[1120px] flex flex-col md:flex-row justify-between items-start gap-12">
 
             <!-- Brand Column -->
             <div class="max-w-sm space-y-5">
                 <div class="flex items-center gap-3">
-                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl font-bold text-brand-color select-none">
+                    <div
+                        class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl font-bold text-brand-color select-none">
                         T
                     </div>
                     <span class="text-2xl font-bold text-white">Trafalgar</span>
                 </div>
                 <p class="text-base font-light leading-relaxed text-white/80">
-                    Trafalgar provides progressive, and affordable <br> healthcare, accessible on mobile and online <br> for everyone
+                    Trafalgar provides progressive, and affordable <br> healthcare, accessible on mobile and online <br>
+                    for everyone
                 </p>
-                <p class="text-sm font-light text-white/70 pt-4">
+                <p class="text-sm font-light text-white pt-4">
                     ©Trafalgar PTY LTD 2026. All rights reserved<br>
                     Made by Yasin Bin Ahsan
                 </p>
@@ -439,10 +444,10 @@
                 <div>
                     <h4 class="font-bold text-lg mb-5 text-white">Region</h4>
                     <ul class="space-y-3 text-sm font-light text-white/80">
-                        <li><a  class="hover:text-white transition-colors cursor-pointer">Indonesia</a></li>
-                        <li><a  class="hover:text-white transition-colors cursor-pointer">Singapore</a></li>
-                        <li><a  class="hover:text-white transition-colors cursor-pointer">Hongkong</a></li>
-                        <li><a  class="hover:text-white transition-colors cursor-pointer">Canada</a></li>
+                        <li><a class="hover:text-white transition-colors cursor-pointer">Indonesia</a></li>
+                        <li><a class="hover:text-white transition-colors cursor-pointer">Singapore</a></li>
+                        <li><a class="hover:text-white transition-colors cursor-pointer">Hong Kong</a></li>
+                        <li><a class="hover:text-white transition-colors cursor-pointer">Canada</a></li>
                     </ul>
                 </div>
 
@@ -462,4 +467,4 @@
     </footer>
 </body>
 
-</html> 
+</html>
