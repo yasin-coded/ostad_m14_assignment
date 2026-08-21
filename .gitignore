@@ -1,5 +1,4 @@
 /src/output.css
-node_modules/
 dist/
 *.log
 npm-debug.log*
