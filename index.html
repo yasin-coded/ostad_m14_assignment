@@ -1,519 +1,522 @@
 <!doctype html>
 <html class="scroll-smooth overflow-x-hidden">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/output.css" rel="stylesheet">
-    <title>Trafalgar Landing Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./src/output.css" rel="stylesheet">
+        <title>Trafalgar Landing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+    </head>
 
-<body class="font-[Mulish] bg-white text-black overflow-x-hidden relative">
+    <body class="font-[Mulish] bg-white text-black relative">
 
-    <!-- Decorative Dots (Hero Top-Left) -->
-    <img src="./images/dots.png" alt="Decorative dots"
-        class="absolute -left-[30px] top-40 w-[131.4px] h-[115px] pointer-events-none select-none z-0 object-contain hidden sm:block sm:opacity-15 lg:opacity-100">
+        <!-- Decorative Dots (Hero Top-Left) -->
+        <img src="./images/dots.png" alt="Decorative dots"
+            class="absolute -left-[30px] top-40 w-[131.4px] h-[115px] pointer-events-none select-none z-0 object-contain hidden sm:block sm:opacity-15 lg:opacity-100">
 
-    <!--Menu Bar-->
-    <header class="sticky top-0 z-50 bg-white">
-        <nav
-            class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-y-3 px-4 py-3 lg:h-16 lg:justify-between lg:py-0">
-            <a class="flex items-center gap-3 no-underline group cursor-pointer">
+        <!--Menu Bar-->
+        <header class="sticky top-0 z-50 bg-white">
+            <nav
+                class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-y-3 px-4 py-3 lg:h-16 lg:justify-between lg:py-0">
+                <a class="flex items-center gap-3 no-underline group cursor-pointer">
 
-                <div
-                    class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-color text-xl font-bold text-white select-none">
-                    T
+                    <div
+                        class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-color text-xl font-bold text-white select-none">
+                        T
+                    </div>
+                    <span class="text-2xl font-bold text-[#233348]">Trafalgar</span>
+                </a>
+
+                <!--Navlink-->
+                <div class="flex flex-wrap justify-center gap-x-4 sm:gap-x-8 gap-y-2">
+                    <a href="#home"
+                        class="text-navbar-text/50 font-medium text-sm sm:text-lg no-underline hover:text-navbar-text">Home</a>
+                    <a href="#findDoctor"
+                        class="text-navbar-text/50 font-medium text-sm sm:text-lg no-underline hover:text-navbar-text">Find a
+                        Doctor</a>
+                    <a href="#apps"
+                        class="text-navbar-text/50 font-medium text-sm sm:text-lg no-underline hover:text-navbar-text">Apps</a>
+                    <a href="#testimonials"
+                        class="text-navbar-text/50 font-medium text-sm sm:text-lg no-underline hover:text-navbar-text">Testimonials</a>
+                    <a href="#aboutUs"
+                        class="text-navbar-text/50 font-medium text-sm sm:text-lg no-underline hover:text-navbar-text">About
+                        Us</a>
                 </div>
-                <span class="text-2xl font-bold text-[#233348]">Trafalgar</span>
-            </a>
+            </nav>
 
-            <!--Navlink-->
-            <div class="flex flex-wrap justify-center gap-x-8 gap-y-3 md:gap-10">
-                <a href="#home"
-                    class="text-navbar-text/50 font-medium text-lg no-underline hover:text-navbar-text">Home</a>
-                <a href="#findDoctor"
-                    class="text-navbar-text/50 font-medium text-lg no-underline hover:text-navbar-text">Find a
-                    Doctor</a>
-                <a href="#apps"
-                    class="text-navbar-text/50 font-medium text-lg no-underline hover:text-navbar-text">Apps</a>
-                <a href="#testimonials"
-                    class="text-navbar-text/50 font-medium text-lg no-underline hover:text-navbar-text">Testimonials</a>
-                <a href="#aboutUs"
-                    class="text-navbar-text/50 font-medium text-lg no-underline hover:text-navbar-text">About
-                    Us</a>
-            </div>
-        </nav>
+        </header>
 
-    </header>
-
-    <!--Hero Section- DONE -->
-    <main>
-        <section id="home"
-            class="mx-auto flex max-w-6xl flex-col flex-w-6xl items-center justify-between gap-8 lg:gap-16 px-4 py-12 lg:flex-row lg:py-16">
-            <!-- Left Column: Content -->
-            <div class="flex-1 space-y-6">
-                <h1 class="text-4xl font-bold leading-tight text-black sm:text-5xl">
-                    Virtual healthcare <br>
-                    for you
-                </h1>
-                <p class="text-body-text text-lg">
-                    Trafalgar provides progressive, and affordable <br class="hidden sm:inline">
-                    healthcare, accessible on mobile and online <br class="hidden sm:inline">
-                    for everyone
-                </p>
-                <div class="pt-2">
-                    <button
-                        class="cursor-pointer rounded-full bg-brand-color px-10 py-3.5 text-base font-semibold text-white hover:bg-brand-color-dark hover:shadow-xl hover:scale-105 transition-all">
-                        Consult today
-                    </button>
-                </div>
-            </div>
-
-            <!-- Image -->
-            <div class="flex flex-1 items-center justify-center lg:justify-end">
-                <img src="./images/Hero_Section.png" alt="Virtual healthcare" class="w-full max-w-lg lg:max-w-xl">
-            </div>
-        </section>
-
-        <!--Services Section- DONE -->
-        <section id="findDoctor" class="relative mx-auto max-w-6xl px-4 pt-16 scroll-mt-12">
-            <!-- Background Decorative Elements -->
-            <img src="./images/Frame.png" alt="Decorative background frame"
-                class="absolute -left-20 lg:-left-44 top-28 lg:top-36 w-[650px] lg:w-[850px] max-w-none pointer-events-none select-none -z-10 object-contain">
-
-            <img src="./images/dot_2.png" alt="Decorative dots"
-                class="absolute right-0 lg:-right-8 top-[54%] -translate-y-1/2 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
-
-            <h2 class="text-black text-4xl font-bold text-center">Our Services</h2>
-            <div class="mx-auto h-0.5 w-14 bg-black mt-6 rounded-full"></div>
-
-            <p class="text-body-text text-lg justify-center lg:text-center text mt-5 text-center">
-                We provide to you the best choices for you. Adjust it to your health needs and make sure your undergo
-                treatment <br> with our highly qualified doctors you can consult with us which type of service is
-                suitable
-                for your health.
-            </p>
-
-            <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
-
-                <article
-                    class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300">
-                    <!--1-->
-                    <div class="mb-6">
-                        <img src="./images/Search.png" alt="Search doctor" class="h-20 w-auto object-contain">
-                    </div>
-                    <h3 class="text-2xl font-bold text-black mb-3">Search doctor</h3>
-                    <p class="text-body-text font-light text-base leading-relaxed">
-                        Choose your doctor from thousands of specialist, general, and trusted hospitals
-                    </p>
-                </article>
-
-                <article
-                    class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300">
-                    <!--2-->
-                    <div class="mb-6">
-                        <img src="./images/Medicine.png" alt="Online pharmacy" class="h-20 w-auto object-contain">
-                    </div>
-                    <h3 class="text-2xl font-bold text-black mb-3">Online pharmacy</h3>
-                    <p class="text-body-text font-light text-base leading-relaxed">
-                        Buy your medicines with our mobile application with a simple delivery system
-                    </p>
-                </article>
-
-                <article
-                    class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300">
-                    <!--3-->
-                    <div class="mb-6">
-                        <img src="./images/Info.png" alt="Consultation" class="h-20 w-auto object-contain">
-                    </div>
-                    <h3 class="text-2xl font-bold text-black mb-3">Consultation</h3>
-                    <p class="text-body-text font-light text-base leading-relaxed">
-                        Free consultation with our trusted doctors and get the best recomendations
-                    </p>
-                </article>
-
-                <article
-                    class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300">
-                    <!--4-->
-                    <div class="mb-6">
-                        <img src="./images/Report.png" alt="Details info" class="h-20 w-auto object-contain">
-                    </div>
-                    <h3 class="text-2xl font-bold text-black mb-3">Details info</h3>
-                    <p class="text-body-text font-light text-base leading-relaxed">
-                        Free consultation with our trusted doctors and get the best recomendations
-                    </p>
-                </article>
-
-                <article
-                    class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300">
-                    <!--5-->
-                    <div class="mb-6">
-                        <img src="./images/First_aid.png" alt="Emergency care" class="h-20 w-auto object-contain">
-                    </div>
-                    <h3 class="text-2xl font-bold text-black mb-3">Emergency care</h3>
-                    <p class="text-body-text font-light text-base leading-relaxed">
-                        You can get 24/7 urgent care for yourself or your children and your lovely family
-                    </p>
-                </article>
-
-                <article
-                    class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-87.5 h-88.5 p-8 flex flex-col justify-center transition-all duration-300">
-                    <!--6-->
-                    <div class="mb-6">
-                        <img src="./images/Note.png" alt="Tracking" class="h-20 w-auto object-contain">
-                    </div>
-                    <h3 class="text-2xl font-bold text-black mb-3">Tracking</h3>
-                    <p class="text-body-text font-light text-base leading-relaxed">
-                        Track and save your medical history and health data
-                    </p>
-                </article>
-            </div>
-
-            <!-- Learn More Button -->
-            <div class="mt-12 flex justify-center">
-                <button
-                    class="cursor-pointer rounded-full bg-white border-2 border-brand-color w-50 h-15 flex items-center justify-center text-base font-semibold text-brand-color hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105 transition-all">
-                    Learn More
-                </button>
-            </div>
-
-
-        </section>
-
-        <!--Healthcare Providers Section-->
-        <div class="relative w-full">
-            <!-- Decorative Dots (Right Edge of Screen) -->
-            <img src="./images/dots.png" alt="Decorative dots"
-                class="absolute -right-[25px] bottom-0 lg:bottom-6 w-[131.4px] h-[115px] pointer-events-none select-none z-0 object-contain">
-
-            <section
-                class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-16 lg:flex-row lg:gap-20 lg:py-24">
-                <!-- Left Column: Image -->
-                <div class="flex flex-1 items-center justify-center lg:justify-start">
-                    <img src="./images/Picture_2.png" alt="Healthcare Provider" class="w-full max-w-lg lg:max-w-xl">
-                </div>
-                <div class="flex-1 space-y-6 md:pl-8 lg:pl-16 xl:pl-20">
-                    <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
-                        Leading healthcare <br>
-                        providers
-                    </h2>
-                    <div class="h-0.5 w-14 bg-black rounded-full"></div>
-                    <p class="text-body-text font-light text-base sm:text-lg leading-relaxed max-w-md">
+        <!--Hero Section- DONE -->
+        <main>
+            <section id="home"
+                class="mx-auto flex max-w-6xl flex-col flex-w-6xl items-center justify-between gap-8 lg:gap-16 px-4 py-12 lg:flex-row lg:py-16">
+                <!-- Left Column: Content -->
+                <div class="flex-1 space-y-6">
+                    <h1 class="text-4xl font-bold leading-tight text-black sm:text-5xl">
+                        Virtual healthcare <br>
+                        for you
+                    </h1>
+                    <p class="text-body-text text-lg">
                         Trafalgar provides progressive, and affordable <br class="hidden sm:inline">
-                        healthcare, accessible on mobile and online for <br class="hidden sm:inline">
-                        everyone. To us, it's not just work. We take pride <br class="hidden sm:inline">
-                        in the solutions we deliver
+                        healthcare, accessible on mobile and online <br class="hidden sm:inline">
+                        for everyone
                     </p>
-                    <div class="pt-4">
+                    <div class="pt-2">
                         <button
-                            class="cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
-                            Learn more
+                            class="cursor-pointer rounded-full bg-brand-color px-10 py-3.5 text-base font-semibold text-white hover:bg-brand-color-dark hover:shadow-xl hover:scale-105 transition-all">
+                            Consult today
                         </button>
                     </div>
                 </div>
-            </section>
-        </div>
 
-        <!--App Section-DONE-->
-        <section id="apps"
-            class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-16 lg:flex-row lg:gap-20 lg:py-24 scroll-mt-24">
-            <!-- Left Column: Content -->
-            <div class="flex-1 space-y-6">
-                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
-                    Download our <br>
-                    mobile apps
-                </h2>
-                <div class="h-0.5 w-14 bg-black rounded-full"></div>
-                <p class="text-body-text font-light text-base sm:text-lg leading-relaxed max-w-md">
-                    Our dedicated patient engagement app and <br class="hidden sm:inline">
-                    web portal allow you to access information <br class="hidden sm:inline">
-                    instantaneously (no tedeous form, long calls, <br class="hidden sm:inline">
-                    or administrative hassle) and securely
+                <!-- Image -->
+                <div class="flex flex-1 items-center justify-center lg:justify-end">
+                    <img src="./images/Hero_Section.png" alt="Virtual healthcare" class="w-full max-w-lg lg:max-w-xl">
+                </div>
+            </section>
+
+            <!--Services Section- DONE -->
+            <section id="findDoctor" class="relative mx-auto max-w-6xl px-4 pt-16 scroll-mt-12">
+                <!-- Background Decorative Elements -->
+                <img src="./images/Frame.png" alt="Decorative background frame"
+                    class="hidden sm:block absolute -left-20 lg:-left-44 top-28 lg:top-36 w-[650px] lg:w-[850px] max-w-none pointer-events-none select-none -z-10 object-contain">
+
+                <img src="./images/dot_2.png" alt="Decorative dots"
+                    class="hidden sm:block absolute right-0 lg:-right-8 top-[54%] -translate-y-1/2 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
+
+                <h2 class="text-black text-2xl sm:text-4xl font-bold text-center">Our Services</h2>
+                <div class="mx-auto h-0.5 w-14 bg-black mt-6 rounded-full"></div>
+
+                <p class="text-body-text text-lg justify-center lg:text-center text mt-5 text-center">
+                    We provide to you the best choices for you. Adjust it to your health needs and make sure your
+                    undergo
+                    treatment <br class="hidden sm:inline"> with our highly qualified doctors you can consult with us which type of service is
+                    suitable
+                    for your health.
                 </p>
-                <div class="pt-4">
+
+                <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
+
+                    <article
+                        class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-full max-w-[350px] min-h-[350px] p-6 sm:p-8 flex flex-col justify-center transition-all duration-300">
+                        <!--1-->
+                        <div class="mb-6">
+                            <img src="./images/Search.png" alt="Search doctor" class="h-20 w-auto object-contain">
+                        </div>
+                        <h3 class="text-2xl font-bold text-black mb-3">Search doctor</h3>
+                        <p class="text-body-text font-light text-base leading-relaxed">
+                            Choose your doctor from thousands of specialist, general, and trusted hospitals
+                        </p>
+                    </article>
+
+                    <article
+                        class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-full max-w-[350px] min-h-[350px] p-6 sm:p-8 flex flex-col justify-center transition-all duration-300">
+                        <!--2-->
+                        <div class="mb-6">
+                            <img src="./images/Medicine.png" alt="Online pharmacy" class="h-20 w-auto object-contain">
+                        </div>
+                        <h3 class="text-2xl font-bold text-black mb-3">Online pharmacy</h3>
+                        <p class="text-body-text font-light text-base leading-relaxed">
+                            Buy your medicines with our mobile application with a simple delivery system
+                        </p>
+                    </article>
+
+                    <article
+                        class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-full max-w-[350px] min-h-[350px] p-6 sm:p-8 flex flex-col justify-center transition-all duration-300">
+                        <!--3-->
+                        <div class="mb-6">
+                            <img src="./images/Info.png" alt="Consultation" class="h-20 w-auto object-contain">
+                        </div>
+                        <h3 class="text-2xl font-bold text-black mb-3">Consultation</h3>
+                        <p class="text-body-text font-light text-base leading-relaxed">
+                            Free consultation with our trusted doctors and get the best recomendations
+                        </p>
+                    </article>
+
+                    <article
+                        class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-full max-w-[350px] min-h-[350px] p-6 sm:p-8 flex flex-col justify-center transition-all duration-300">
+                        <!--4-->
+                        <div class="mb-6">
+                            <img src="./images/Report.png" alt="Details info" class="h-20 w-auto object-contain">
+                        </div>
+                        <h3 class="text-2xl font-bold text-black mb-3">Details info</h3>
+                        <p class="text-body-text font-light text-base leading-relaxed">
+                            Free consultation with our trusted doctors and get the best recomendations
+                        </p>
+                    </article>
+
+                    <article
+                        class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-full max-w-[350px] min-h-[350px] p-6 sm:p-8 flex flex-col justify-center transition-all duration-300">
+                        <!--5-->
+                        <div class="mb-6">
+                            <img src="./images/First_aid.png" alt="Emergency care" class="h-20 w-auto object-contain">
+                        </div>
+                        <h3 class="text-2xl font-bold text-black mb-3">Emergency care</h3>
+                        <p class="text-body-text font-light text-base leading-relaxed">
+                            You can get 24/7 urgent care for yourself or your children and your lovely family
+                        </p>
+                    </article>
+
+                    <article
+                        class="bg-white rounded-[20px] shadow-[10px_40px_50px_0_rgba(229,233,246,0.4)] border border-transparent hover:border-brand-color hover:shadow-xl w-full max-w-[350px] min-h-[350px] p-6 sm:p-8 flex flex-col justify-center transition-all duration-300">
+                        <!--6-->
+                        <div class="mb-6">
+                            <img src="./images/Note.png" alt="Tracking" class="h-20 w-auto object-contain">
+                        </div>
+                        <h3 class="text-2xl font-bold text-black mb-3">Tracking</h3>
+                        <p class="text-body-text font-light text-base leading-relaxed">
+                            Track and save your medical history and health data
+                        </p>
+                    </article>
+                </div>
+
+                <!-- Learn More Button -->
+                <div class="mt-12 flex justify-center">
                     <button
-                        class="inline-flex items-center gap-2 cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
-                        <span>Download</span>
-                        <svg class="h-4 w-4 stroke-current" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            stroke-width="2.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                        </svg>
+                        class="cursor-pointer rounded-full bg-white border-2 border-brand-color w-50 h-15 flex items-center justify-center text-base font-semibold text-brand-color hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105 transition-all">
+                        Learn More
                     </button>
                 </div>
-            </div>
 
-            <!-- Right Column: Image -->
-            <div class="flex flex-1 items-center justify-center lg:justify-end">
-                <img src="./images/app.png" alt="Download Mobile Apps" class="w-full max-w-lg lg:max-w-xl">
-            </div>
-        </section>
 
-        <!--Testimonial Section-->
+            </section>
 
-        <section id="testimonials" class="mx-auto w-full max-w-280 scroll-mt-24 px-4 sm:px-0">
-
-            <!-- Box Container with Background Dots -->
+            <!--Healthcare Providers Section-->
             <div class="relative w-full">
+                <!-- Decorative Dots (Right Edge of Screen) -->
+                <img src="./images/dots.png" alt="Decorative dots"
+                    class="hidden sm:block absolute -right-[25px] bottom-0 lg:bottom-6 w-[131.4px] h-[115px] pointer-events-none select-none z-0 object-contain">
 
-                <!-- Decorative Dots Behind Box-->
-                <img src="./images/Dot_3_b_test.png" alt="Decorative dots"
-                    class="absolute -left-12 -bottom-6 lg:-left-12 lg:bottom-10 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
+                <section
+                    class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-16 lg:flex-row lg:gap-20 lg:py-24">
+                    <!-- Left Column: Image -->
+                    <div class="flex flex-1 items-center justify-center lg:justify-start">
+                        <img src="./images/Picture_2.png" alt="Healthcare Provider" class="w-full max-w-lg lg:max-w-xl">
+                    </div>
+                    <div class="flex-1 space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start md:pl-8 lg:pl-16 xl:pl-20">
+                        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
+                            Leading healthcare <br>
+                            providers
+                        </h2>
+                        <div class="h-0.5 w-14 bg-black rounded-full"></div>
+                        <p class="text-body-text font-light text-base sm:text-lg leading-relaxed max-w-md">
+                            Trafalgar provides progressive, and affordable <br class="hidden sm:inline">
+                            healthcare, accessible on mobile and online for <br class="hidden sm:inline">
+                            everyone. To us, it's not just work. We take pride <br class="hidden sm:inline">
+                            in the solutions we deliver
+                        </p>
+                        <div class="pt-4">
+                            <button
+                                class="cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
-                <!-- Gradient Box -->
-                <div
-                    class="w-full rounded-3xl bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-8 lg:px-20 flex flex-col items-center">
-
-                    <!-- Decorative Dots on Top of Box -->
-                    <img src="./images/dot_3.png" alt="Decorative dots"
-                        class="absolute right-5 top-5 lg:right-0 lg:-top-4 w-[113px] h-[96px] pointer-events-none select-none z-0 object-contain hidden sm:block">
-
-                    <h2 class="text-center text-3xl font-bold text-white relative z-10">What our customer are saying
+            <!--App Section-DONE-->
+            <section id="apps"
+                class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-16 lg:flex-row lg:gap-20 lg:py-24 scroll-mt-24">
+                <!-- Left Column: Content -->
+                <div class="flex-1 space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start">
+                    <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
+                        Download our <br>
+                        mobile apps
                     </h2>
+                    <div class="h-0.5 w-14 bg-black rounded-full"></div>
+                    <p class="text-body-text font-light text-base sm:text-lg leading-relaxed max-w-md">
+                        Our dedicated patient engagement app and <br class="hidden sm:inline">
+                        web portal allow you to access information <br class="hidden sm:inline">
+                        instantaneously (no tedeous form, long calls, <br class="hidden sm:inline">
+                        or administrative hassle) and securely
+                    </p>
+                    <div class="pt-4">
+                        <button
+                            class="inline-flex items-center gap-2 cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
+                            <span>Download</span>
+                            <svg class="h-4 w-4 stroke-current" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                stroke-width="2.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
 
-                    <div class="mt-6 h-0.5 w-16 bg-white rounded-full relative z-10"></div>
+                <!-- Right Column: Image -->
+                <div class="flex flex-1 items-center justify-center lg:justify-end">
+                    <img src="./images/app.png" alt="Download Mobile Apps" class="w-full max-w-lg lg:max-w-xl">
+                </div>
+            </section>
 
+            <!--Testimonial Section-->
+
+            <section id="testimonials" class="mx-auto w-full max-w-280 scroll-mt-24 px-4 sm:px-0">
+
+                <!-- Box Container with Background Dots -->
+                <div class="relative w-full">
+
+                    <!-- Decorative Dots Behind Box-->
+                    <img src="./images/Dot_3_b_test.png" alt="Decorative dots"
+                        class="hidden sm:block absolute -left-12 -bottom-6 lg:-left-12 lg:bottom-10 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
+
+                    <!-- Gradient Box -->
                     <div
-                        class="mt-16 flex flex-col lg:flex-row items-center justify-between w-full gap-12 lg:gap-8 relative z-10">
-                        <div class="flex items-center gap-6 lg:w-1/2 justify-start lg:justify-center">
-                            <img src="./images/yasin.jpg" alt="Yasin"
-                                class="w-24 h-24 lg:w-32 lg:h-32 rounded-full border-4 border-white object-cover">
-                            <div class="text-white text-left">
-                                <h3 class="text-xl lg:text-2xl font-bold">Yasin Bin Ahsan</h3>
-                                <p class="text-sm lg:text-base font-light mt-1">Founder Circle</p>
+                        class="w-full rounded-3xl bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-8 lg:px-20 flex flex-col items-center">
+
+                        <!-- Decorative Dots on Top of Box -->
+                        <img src="./images/dot_3.png" alt="Decorative dots"
+                            class="absolute right-5 top-5 lg:right-0 lg:-top-4 w-[113px] h-[96px] pointer-events-none select-none z-0 object-contain hidden sm:block">
+
+                        <h2 class="text-center text-xl sm:text-3xl font-bold text-white relative z-10">What our customer are saying
+                        </h2>
+
+                        <div class="mt-6 h-0.5 w-16 bg-white rounded-full relative z-10"></div>
+
+                        <div
+                            class="mt-16 flex flex-col lg:flex-row items-center justify-between w-full gap-12 lg:gap-8 relative z-10">
+                            <div class="flex items-center gap-6 lg:w-1/2 justify-start lg:justify-center">
+                                <img src="./images/yasin.jpg" alt="Yasin"
+                                    class="w-24 h-24 lg:w-32 lg:h-32 rounded-full border-4 border-white object-cover">
+                                <div class="text-white text-left">
+                                    <h3 class="text-xl lg:text-2xl font-bold">Yasin Bin Ahsan</h3>
+                                    <p class="text-sm lg:text-base font-light mt-1">Founder Circle</p>
+                                </div>
+                            </div>
+
+                            <div class="lg:w-1/2 text-white text-center lg:text-left lg:pr-8">
+                                <p class="text-base lg:text-lg font-light leading-loose">
+                                    “Our dedicated patient engagement app and <br class="hidden sm:inline"> web portal allow you to access
+                                    information
+                                    <br class="hidden sm:inline">
+                                    instantaneously (no tedious form, long calls, or administrative hassle) and
+                                    securely”
+                                </p>
                             </div>
                         </div>
 
-                        <div class="lg:w-1/2 text-white text-center lg:text-left lg:pr-8">
-                            <p class="text-base lg:text-lg font-light leading-loose">
-                                “Our dedicated patient engagement app and <br> web portal allow you to access
-                                information
-                                <br>
-                                instantaneously (no tedious form, long calls, or administrative hassle) and securely”
-                            </p>
-                        </div>
                     </div>
 
                 </div>
 
-            </div>
+                <div class="mt-12 flex items-center justify-center gap-16 md:gap-24">
 
-            <div class="mt-12 flex items-center justify-center gap-16 md:gap-24">
+                    <!-- Left Arrow -->
+                    <button class="text-brand-color/40 cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                        </svg>
+                    </button>
 
-                <!-- Left Arrow -->
-                <button class="text-brand-color/40 cursor-pointer">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
-                        stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-                    </svg>
-                </button>
+                    <!-- Dots -->
+                    <div class="flex items-center gap-4">
+                        <span class="block h-2.5 w-2.5 rounded-full bg-brand-color"></span>
+                        <span class="block h-2.5 w-2.5 rounded-full bg-brand-color/30"></span>
+                        <span class="block h-2.5 w-2.5 rounded-full bg-brand-color/30"></span>
+                        <span class="block h-2.5 w-2.5 rounded-full bg-brand-color/30"></span>
+                    </div>
 
-                <!-- Dots -->
-                <div class="flex items-center gap-4">
-                    <span class="block h-2.5 w-2.5 rounded-full bg-brand-color"></span>
-                    <span class="block h-2.5 w-2.5 rounded-full bg-brand-color/30"></span>
-                    <span class="block h-2.5 w-2.5 rounded-full bg-brand-color/30"></span>
-                    <span class="block h-2.5 w-2.5 rounded-full bg-brand-color/30"></span>
+                    <!-- Right Arrow -->
+                    <button class="text-brand-color cursor-pointer hover:opacity-75 transition-opacity">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+            <!--More Articles section-->
+            <section class="relative mx-auto w-full max-w-280 py-16 px-4">
+                <!-- Background Decoratives -->
+                <img src="./images/dot_2.png" alt="Decorative dots"
+                    class="hidden sm:block absolute -left-6 lg:-left-12 top-48 lg:top-32 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
+
+                <img src="./images/Frame_2.png" alt="Decorative background shape"
+                    class="absolute -right-20 lg:-right-40 top-32 lg:top-24 w-[450px] lg:w-[600px] pointer-events-none select-none -z-10 object-contain hidden sm:block">
+
+                <h2 class="text-black text-2xl sm:text-4xl font-bold text-center mb-8">Check out our latest article</h2>
+                <div class="mb-8 flex items-center justify-center">
+                    <div class="h-0.5 w-14 bg-black rounded-full"></div>
                 </div>
 
-                <!-- Right Arrow -->
-                <button class="text-brand-color cursor-pointer hover:opacity-75 transition-opacity">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
-                        stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                    </svg>
-                </button>
-            </div>
-        </section>
-
-        <!--More Articles section-->
-        <section class="relative mx-auto w-full max-w-280 py-16 px-4">
-            <!-- Background Decoratives -->
-            <img src="./images/dot_2.png" alt="Decorative dots"
-                class="absolute -left-6 lg:-left-12 top-48 lg:top-32 w-[132px] h-[115px] pointer-events-none select-none -z-10 object-contain">
-
-            <img src="./images/Frame_2.png" alt="Decorative background shape"
-                class="absolute -right-20 lg:-right-40 top-32 lg:top-24 w-[450px] lg:w-[600px] pointer-events-none select-none -z-10 object-contain">
-
-            <h2 class="text-black text-4xl font-bold text-center mb-8">Check out our latest article</h2>
-            <div class="mb-8 flex items-center justify-center">
-                <div class="h-0.5 w-14 bg-black rounded-full"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
 
-                <article
-                    class="bg-white rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(229,233,242,0.7)] flex flex-col justify-between">
+                    <article
+                        class="bg-white rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(229,233,242,0.7)] flex flex-col justify-between">
+                        <div>
+                            <img src="./images/Article_image_1.png" alt="Disease detection"
+                                class="w-full h-56 object-cover" />
+                            <div class="p-8 pb-4">
+                                <h3 class="text-xl font-bold text-black leading-snug">
+                                    Disease detection, check up in the laboratory
+                                </h3>
+                                <p class="mt-3 text-sm font-light text-body-text leading-relaxed">
+                                    In this case, the role of the health <br class="hidden sm:inline"> laboratory is very important to do <br class="hidden sm:inline"> a
+                                    disease detection...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-8 pb-8">
+                            <a
+                                class="inline-flex items-center gap-3 text-brand-color font-semibold hover:gap-4 transition-all">
+                                <span>Read more</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article
+                        class="bg-white rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(229,233,242,0.7)] flex flex-col justify-between">
+                        <div>
+                            <img src="./images/Image_2.png" alt="Herbal medicines" class="w-full h-56 object-cover" />
+                            <div class="p-8 pb-4">
+                                <h3 class="text-xl font-bold text-black leading-snug">
+                                    Herbal medicines that are safe for consumption
+                                </h3>
+                                <p class="mt-3 text-sm font-light text-body-text leading-relaxed">
+                                    Herbal medicine is very widely used at this time because of its very good for your
+                                    health...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-8 pb-8">
+                            <a
+                                class="inline-flex items-center gap-3 text-brand-color font-semibold hover:gap-4 transition-all">
+                                <span>Read more</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article
+                        class="bg-white rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(229,233,242,0.7)] flex flex-col justify-between">
+                        <div>
+                            <img src="./images/Image_3.png" alt="Natural care" class="w-full h-56 object-cover" />
+                            <div class="p-8 pb-4">
+                                <h3 class="text-xl font-bold text-black leading-snug">
+                                    Natural care for healthy facial skin
+                                </h3>
+                                <p class="mt-3 text-sm font-light text-body-text leading-relaxed">
+                                    A healthy lifestyle should start from now and also for your skin health. There are
+                                    some...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-8 pb-8">
+                            <a
+                                class="inline-flex items-center gap-3 text-brand-color font-semibold hover:gap-4 transition-all">
+                                <span>Read more</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- View All Button -->
+                <div class="mt-12 flex justify-center">
+                    <button
+                        class="cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
+                        View All
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer Section-->
+        <footer id="aboutUs"
+            class="relative w-full bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-6 lg:px-8 mt-24 text-white scroll-mt-24">
+
+            <!-- Decorative Dots (Top-Right) -->
+            <img src="./images/Dot_3_b_test.png" alt="Decorative dots"
+                class="hidden sm:block absolute right-24 -top-32 lg:right-10 lg:-top-24 w-[120px] h-[105px] pointer-events-none select-none -z-10 object-contain">
+
+            <!-- Decorative Dots (Bottom-Left) -->
+            <img src="./images/dot_3.png" alt="Decorative dots"
+            class=" hidden sm:block absolute left-0 bottom-0 lg:-left-4 lg:bottom-0 w-[131px] h-[115px] pointer-events-none select-none z-0 object-contain">
+
+            <div class="relative z-10 mx-auto max-w-280 flex flex-col md:flex-row justify-between items-start gap-12">
+
+                <!-- Brand Column -->
+                <div class="max-w-sm space-y-5 flex flex-col items-center md:items-start text-center md:text-left">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl font-bold text-brand-color select-none">
+                            T
+                        </div>
+                        <span class="text-2xl font-bold text-white">Trafalgar</span>
+                    </div>
+                    <p class="text-base font-light leading-relaxed text-white/80">
+                        Trafalgar provides progressive, and affordable <br class="hidden sm:inline"> healthcare, accessible on mobile and online
+                        <br class="hidden sm:inline">
+                        for everyone
+                    </p>
+                    <p class="text-sm font-light text-white pt-4">
+                        ©Trafalgar PTY LTD 2026. All rights reserved <br class="hidden sm:inline">
+                        Made by Yasin Bin Ahsan
+                    </p>
+                </div>
+
+                <!-- Links Grid -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-10 lg:gap-16">
+                    <!-- Company -->
                     <div>
-                        <img src="./images/Article_image_1.png" alt="Disease detection"
-                            class="w-full h-56 object-cover" />
-                        <div class="p-8 pb-4">
-                            <h3 class="text-xl font-bold text-black leading-snug">
-                                Disease detection, check up in the laboratory
-                            </h3>
-                            <p class="mt-3 text-sm font-light text-body-text leading-relaxed">
-                                In this case, the role of the health <br> laboratory is very important to do <br> a
-                                disease detection...
-                            </p>
-                        </div>
+                        <h4 class="font-bold text-lg mb-5 text-white">Company</h4>
+                        <ul class="space-y-3 text-sm font-light text-white/80">
+                            <li><a href="#aboutUs" class="hover:text-white transition-colors">About</a></li>
+                            <li><a href="#testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
+                            <li><a href="#findDoctor" class="hover:text-white transition-colors">Find a doctor</a></li>
+                            <li><a href="#apps" class="hover:text-white transition-colors">Apps</a></li>
+                        </ul>
                     </div>
-                    <div class="px-8 pb-8">
-                        <a
-                            class="inline-flex items-center gap-3 text-brand-color font-semibold hover:gap-4 transition-all">
-                            <span>Read more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
-                                stroke="currentColor" class="w-4 h-4">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
 
-                <!-- Card 2 -->
-                <article
-                    class="bg-white rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(229,233,242,0.7)] flex flex-col justify-between">
+                    <!-- Region -->
                     <div>
-                        <img src="./images/Image_2.png" alt="Herbal medicines" class="w-full h-56 object-cover" />
-                        <div class="p-8 pb-4">
-                            <h3 class="text-xl font-bold text-black leading-snug">
-                                Herbal medicines that are safe for consumption
-                            </h3>
-                            <p class="mt-3 text-sm font-light text-body-text leading-relaxed">
-                                Herbal medicine is very widely used at this time because of its very good for your
-                                health...
-                            </p>
-                        </div>
+                        <h4 class="font-bold text-lg mb-5 text-white">Region</h4>
+                        <ul class="space-y-3 text-sm font-light text-white/80">
+                            <li><a class="hover:text-white transition-colors cursor-pointer">Indonesia</a></li>
+                            <li><a class="hover:text-white transition-colors cursor-pointer">Singapore</a></li>
+                            <li><a class="hover:text-white transition-colors cursor-pointer">Hong Kong</a></li>
+                            <li><a class="hover:text-white transition-colors cursor-pointer">Canada</a></li>
+                        </ul>
                     </div>
-                    <div class="px-8 pb-8">
-                        <a
-                            class="inline-flex items-center gap-3 text-brand-color font-semibold hover:gap-4 transition-all">
-                            <span>Read more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
-                                stroke="currentColor" class="w-4 h-4">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
 
-                <!-- Card 3 -->
-                <article
-                    class="bg-white rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(229,233,242,0.7)] flex flex-col justify-between">
+                    <!-- Help -->
                     <div>
-                        <img src="./images/Image_3.png" alt="Natural care" class="w-full h-56 object-cover" />
-                        <div class="p-8 pb-4">
-                            <h3 class="text-xl font-bold text-black leading-snug">
-                                Natural care for healthy facial skin
-                            </h3>
-                            <p class="mt-3 text-sm font-light text-body-text leading-relaxed">
-                                A healthy lifestyle should start from now and also for your skin health. There are
-                                some...
-                            </p>
-                        </div>
+                        <h4 class="font-bold text-lg mb-5 text-white">Help</h4>
+                        <ul class="space-y-3 text-sm font-light text-white/80">
+                            <li><a class="hover:text-white transition-colors cursor-pointer">Help center</a></li>
+                            <li><a class="hover:text-white transition-colors cursor-pointer">Contact support</a></li>
+                            <li><a class="hover:text-white transition-colors cursor-pointer">Instructions</a></li>
+                            <li><a class="hover:text-white transition-colors cursor-pointer">How it works</a></li>
+                        </ul>
                     </div>
-                    <div class="px-8 pb-8">
-                        <a
-                            class="inline-flex items-center gap-3 text-brand-color font-semibold hover:gap-4 transition-all">
-                            <span>Read more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
-                                stroke="currentColor" class="w-4 h-4">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-            </div>
-
-            <!-- View All Button -->
-            <div class="mt-12 flex justify-center">
-                <button
-                    class="cursor-pointer rounded-full border-2 border-brand-color bg-white px-10 py-3 text-base font-semibold text-brand-color transition-all hover:bg-brand-color hover:text-white hover:shadow-xl hover:scale-105">
-                    View All
-                </button>
-            </div>
-        </section>
-    </main>
-
-    <!--Footer Section-->
-    <footer id="aboutUs"
-        class="relative overflow-hidden w-full bg-linear-to-r from-gradient-color-1 to-gradient-color-2 py-16 px-6 lg:px-8 mt-24 text-white scroll-mt-24">
-
-        <!-- Decorative Dots (Top-Right) -->
-        <img src="./images/dot_2.png" alt="Decorative dots"
-            class="absolute right-24 -top-14 lg:right-32 lg:-top-14 w-[132px] h-[115px] pointer-events-none select-none z-0 object-contain">
-
-        <!-- Decorative Dots (Bottom-Left) -->
-        <img src="./images/dot_3.png" alt="Decorative dots"
-            class="absolute -left-4 -bottom-4 lg:left-4 lg:-bottom-2 w-[131px] h-[115px] pointer-events-none select-none z-0 object-contain ">
-
-        <div class="relative z-10 mx-auto max-w-280 flex flex-col md:flex-row justify-between items-start gap-12">
-
-            <!-- Brand Column -->
-            <div class="max-w-sm space-y-5">
-                <div class="flex items-center gap-3">
-                    <div
-                        class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl font-bold text-brand-color select-none">
-                        T
-                    </div>
-                    <span class="text-2xl font-bold text-white">Trafalgar</span>
-                </div>
-                <p class="text-base font-light leading-relaxed text-white/80">
-                    Trafalgar provides progressive, and affordable <br> healthcare, accessible on mobile and online <br>
-                    for everyone
-                </p>
-                <p class="text-sm font-light text-white pt-4">
-                    ©Trafalgar PTY LTD 2026. All rights reserved<br>
-                    Made by Yasin Bin Ahsan
-                </p>
-            </div>
-
-            <!-- Links Grid -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-10 lg:gap-16">
-                <!-- Company -->
-                <div>
-                    <h4 class="font-bold text-lg mb-5 text-white">Company</h4>
-                    <ul class="space-y-3 text-sm font-light text-white/80">
-                        <li><a href="#aboutUs" class="hover:text-white transition-colors">About</a></li>
-                        <li><a href="#testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
-                        <li><a href="#findDoctor" class="hover:text-white transition-colors">Find a doctor</a></li>
-                        <li><a href="#apps" class="hover:text-white transition-colors">Apps</a></li>
-                    </ul>
                 </div>
 
-                <!-- Region -->
-                <div>
-                    <h4 class="font-bold text-lg mb-5 text-white">Region</h4>
-                    <ul class="space-y-3 text-sm font-light text-white/80">
-                        <li><a class="hover:text-white transition-colors cursor-pointer">Indonesia</a></li>
-                        <li><a class="hover:text-white transition-colors cursor-pointer">Singapore</a></li>
-                        <li><a class="hover:text-white transition-colors cursor-pointer">Hong Kong</a></li>
-                        <li><a class="hover:text-white transition-colors cursor-pointer">Canada</a></li>
-                    </ul>
-                </div>
-
-                <!-- Help -->
-                <div>
-                    <h4 class="font-bold text-lg mb-5 text-white">Help</h4>
-                    <ul class="space-y-3 text-sm font-light text-white/80">
-                        <li><a class="hover:text-white transition-colors cursor-pointer">Help center</a></li>
-                        <li><a class="hover:text-white transition-colors cursor-pointer">Contact support</a></li>
-                        <li><a class="hover:text-white transition-colors cursor-pointer">Instructions</a></li>
-                        <li><a class="hover:text-white transition-colors cursor-pointer">How it works</a></li>
-                    </ul>
-                </div>
             </div>
-
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 
 </html>
